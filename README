@@ -1,0 +1,3 @@
+SHINOBI - a multi instance database replication monitor. 
+Currently I have writing this based on mysql 5.6.X. I will be developing it so that it can look at any type of database to figure out replication status
+I am writing this in Python 2.7X. I have a Pyton 3.3 version as well which I will be rolling out as I conjure up more free time. 
