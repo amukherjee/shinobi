@@ -1,3 +1,4 @@
-SHINOBI - a multi instance database replication monitor. 
-Currently I have writing this based on mysql 5.6.X. I will be developing it so that it can look at any type of database to figure out replication status
-I am writing this in Python 2.7X. I have a Pyton 3.3 version as well which I will be rolling out as I conjure up more free time. 
+SHINOBI - A collection of useful mysql programs designed to make my, or and Mysql DBA's life a heck of a lot easier.
+The Shinobi project consists of a series of programs:
+ +     inoichi -  a multi instance database replication monitor, notification, & healing tool. 
+
