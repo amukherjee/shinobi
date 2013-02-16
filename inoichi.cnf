@@ -1,0 +1,5 @@
+[startup]
+mysql_configuration = /usr/loca/my.cnf
+mysql_user = backupuser
+mysql_pass = changeme
+

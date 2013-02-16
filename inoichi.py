@@ -18,7 +18,13 @@ def access_instance_setup(filename):
     running_process =[]
     un_important=[]
 
-    un_important=['mysqld_multi', 'client', 'mysqldump', 'mysql', 'isamchk', 'myisamchk', 'mysqlhotcopy'] 
+    un_important=['mysqld_multi',
+                  'client',
+                  'mysqldump',
+                  'mysql',
+                  'isamchk',
+                  'myisamchk',
+                  'mysqlhotcopy'] 
 
     for section_name in config.sections():
         if section_name in un_important:
@@ -98,7 +104,6 @@ def notify(stdOut):
     server = smtplib.SMTP("localhost")
     server.sendmail(emailFrom, [emailTo], emailBody)
     server.quit()
-
 
 def main():
     if len(sys.argv) != 2:
