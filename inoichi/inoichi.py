@@ -41,7 +41,6 @@ def access_instance_setup(filename):
                 
                 inscribe(section_name, socket, server_status, replication_vars)
 
-           # print "-"*150
 
 def check_server_status(process_specs):
     """Checks for a running mysqld process. """
@@ -101,6 +100,7 @@ def notify(stdOut):
                             "",
                             stdOut
                             ), "\r\n")
+
     server = smtplib.SMTP("localhost")
     server.sendmail(emailFrom, [emailTo], emailBody)
     server.quit()
